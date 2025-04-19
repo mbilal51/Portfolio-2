@@ -1,8 +1,5 @@
 {
   "scripts": {
-    "layer0:dev": "layer0 dev",
-    "layer0:build": "layer0 build",
-    "layer0:deploy": "layer0 deploy",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
@@ -22,13 +19,6 @@
     "react-rough-notation": "^1.0.2"
   },
   "devDependencies": {
-    "@layer0/cli": "^4.13.12",
-    "@layer0/core": "^4.13.12",
-    "@layer0/devtools": "^4.13.12",
-    "@layer0/next": "^4.13.12",
-    "@layer0/prefetch": "^4.13.12",
-    "@layer0/react": "^4.13.12",
-    "@layer0/starter": "^4.13.12",
     "@types/node": "17.0.4",
     "@types/react": "17.0.38",
     "autoprefixer": "^10.4.0",
