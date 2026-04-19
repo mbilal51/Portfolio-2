@@ -43,8 +43,6 @@ const Main = () => {
 				        src={avatar}
 				        alt="Public Avatar"
 				        priority={true}
-				        className="rounded-xl block shadow-[0_4px_6px_rgba(0,0,0,0.5)]"
-				        
 				        width={440}
 				        height={531}
 				        placeholder="blur"
