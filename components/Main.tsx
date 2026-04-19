@@ -14,7 +14,7 @@ const Main = () => {
                         Hi there,
                     </h1>
                     <div className="mt-6 md:text-xl text-gray-800 dark:text-white">
-                        <p className="mb-4">I work as a <RoughNotation type="box" color="blue" strokeWidth={1}><b>Solutions Engineer</b></RoughNotation> at <a
+                        <p className="mb-4">I work as a <RoughNotation type="box" color="blue" strokeWidth={1}><b>Solutions Engineering Lead</b></RoughNotation> at <a
                             href="https://www.akamai.com"
                             className="font-bold transition-colors hover:text-sky-500" target="_blank"
                             rel="noopener">Akamai Technologies</a>.
