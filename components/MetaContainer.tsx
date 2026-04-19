@@ -10,7 +10,7 @@ export default function MetaContainer({children, ...customMeta}) {
     const meta = {
         title: "Mohamed Bilal - Developer, Consultant, Cloud Security, Edge Compute, Video/Media ",
         description: `Portfolio`,
-        image: "/public/avatar.png",
+        image: "/public/avatar.jpg",
         type: "website",
         date: new Date().toDateString(),
         ...customMeta,
