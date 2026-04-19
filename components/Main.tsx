@@ -38,16 +38,16 @@ const Main = () => {
                         {/* <h2 className="font-bold">I'm a rocket 🚀</h2> */}
                     </div>
                 </div>
-                <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10 shadow-[0_4px_6px_rgba(0,0,0,0.5)]">
-                        <Image
-                        src={avatar}
-                        alt="Public Avatar"
-                        priority={true}
-                        className="rounded-xl "
-                        width={440}
-                        height={531}
-                        placeholder="blur"
-                    />
+                <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10">
+				    <Image
+				        src={avatar}
+				        alt="Public Avatar"
+				        priority={true}
+				        className="rounded-xl shadow-[0_4px_6px_rgba(0,0,0,0.5)]"
+				        width={440}
+				        height={531}
+				        placeholder="blur"
+				    />
                     {/* <div className="flex justify-center mt-6">
                         <div
                             className="flex md:flex lg:flex sm:flex space-x-4 font-medium text-gray-800 sm:block dark:text-white">
