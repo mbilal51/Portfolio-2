@@ -1,6 +1,6 @@
 import React from "react"
 import Image from "next/image"
-import avatar from "../public/avatar.png"
+import avatar from "../public/avatar.jpg"
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
 const Main = () => {
@@ -22,11 +22,13 @@ const Main = () => {
                         <p className="mb-4"><b>Product Specialist </b>with over 8 years of experience across multiple domains.<br />
                         <u>Specialities</u>:<br />
                         <strong><ul className="dark:text-black mt-2 list-inside md:block">
-                        <RoughNotation type="highlight" color="mistyrose" strokeWidth={4}><li>Web.Dev</li>
-                        <li>Cloud Security</li>
+                        <RoughNotation type="highlight" color="mistyrose" strokeWidth={4}>
+                        <li>Cloud Compute</li>
+						<li>Cloud Security</li>
                         <li>Media/Streaming</li>
                         <li>Content Delivery(CDN)</li>
-                        <li>EdgeJS</li></RoughNotation>
+						<li>Web.Dev</li>
+                        <li>Edge Compute</li></RoughNotation>
                         </ul></strong>
                         </p>
                         {/* <p className="mb-4">
@@ -42,8 +44,8 @@ const Main = () => {
                         alt="Public Avatar"
                         priority={true}
                         className="rounded-xl "
-                        width={480}
-                        height={462}
+                        width={440}
+                        height={531}
                         placeholder="blur"
                     />
                     {/* <div className="flex justify-center mt-6">
