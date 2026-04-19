@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "mbilal51",
   name: "Mohamed Bilal",
   designation: "Product Specialist",
-  avatarUrl: "/avatar.png",
+  avatarUrl: "/avatar.jpg",
   email: "mdbillu.51@gmail.com",
   phone: "+91 9886882024",
   address: "Bangalore, India",
