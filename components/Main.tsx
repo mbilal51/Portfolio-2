@@ -1,6 +1,6 @@
 import React from "react"
 import Image from "next/image"
-import avatar from "../public/avatar.png"
+import avatar from "../public/avatar.jpg"
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
 const Main = () => {
