@@ -38,7 +38,7 @@ const Main = () => {
                         {/* <h2 className="font-bold">I'm a rocket 🚀</h2> */}
                     </div>
                 </div>
-                <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10 ">
+                <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10 shadow-[0_4px_6px_rgba(0,0,0,0.5)]">
                         <Image
                         src={avatar}
                         alt="Public Avatar"
