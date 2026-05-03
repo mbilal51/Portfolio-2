@@ -44,8 +44,8 @@ const Main = () => {
                         alt="Public Avatar"
                         priority={true}
                         className="rounded-xl "
-                        width={450}
-                        height={543}
+                        width={380}
+                        height={459}
                         placeholder="blur"
                     />
                     {/* <div className="flex justify-center mt-6">
